@@ -1,5 +1,5 @@
 EasyRollover
-======
+============
 
 HTMLの要素にロールオーバーした時にエフェクトを付ける
 (要JQuery)
@@ -7,19 +7,22 @@ HTMLの要素にロールオーバーした時にエフェクトを付ける
 Version
 -------
 
-+ 0.0.1 2010/12/8 alpha版リリース
++ 0.0.1 2010/12/08 alpha版リリース
++ 0.0.2 2010/12/10 
 
 Usage 
 -----
 
 easy_rollover.jsに設定をしてください
-    // settings
     var EasyRollOver = {
       // element to rollover
       element: ".rollover",
 
       // speed of fading out
-      opacity: 0.8
+      speed: "fast",
+
+      //effects
+      effects: {opacity: 0.3}
     };
 
 HTMLからeasy_rollover.jsを読み込むと
@@ -28,7 +31,5 @@ HTMLからeasy_rollover.jsを読み込むと
 Todo
 ----
 
-+ 色を付ける
-+ エフェクトの種類を増やす
  
 copyright 2010 waco, released under the MIT license 
